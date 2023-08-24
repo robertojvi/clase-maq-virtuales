@@ -1,0 +1,27 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Cada lenguaje de programación requiere un compilador o intérprete para ser ejecutado en una computadora. Si el compilador o intérprete está diseñado para un sistema operativo en particular, es posible que no funcione correctamente en otros sistemas operativos sin una adaptación adecuada.
+Algunos lenguajes de programación pueden depender de ciertas bibliotecas o componentes del sistema operativo para funcionar correctamente. Si estas dependencias no están disponibles en todos los sistemas operativos, el lenguaje podría tener limitaciones en su portabilidad.
+Algunos lenguajes de programación están diseñados para aprovechar características específicas de ciertos sistemas operativos. Por ejemplo, un lenguaje podría estar optimizado para interactuar con las APIs de Windows, lo que podría dificultar su uso en sistemas operativos que no sean Windows.
+La arquitectura del hardware subyacente también puede influir en la compatibilidad de un lenguaje de programación con diferentes sistemas operativos. Algunos lenguajes pueden estar diseñados para funcionar en ciertos tipos de arquitecturas y no ser adecuados para otras.
+A veces, la razón por la que un lenguaje de programación no se puede utilizar en ciertos sistemas operativos es simplemente porque nadie ha desarrollado una implementación para esos sistemas. Esto podría deberse a limitaciones de recursos, falta de interés o enfoque en plataformas más populares.
+Algunos lenguajes de programación tienen una historia y un legado que los asocian con sistemas operativos específicos. Aunque pueden ser técnicamente portables, es posible que estén más arraigados en un sistema en particular debido a su historia.
+Compatibilidad de APIs: Si un lenguaje de programación utiliza ciertas APIs (Interfaces de Programación de Aplicaciones) que son exclusivas de un sistema operativo, puede resultar difícil o imposible utilizar esas características en otros sistemas.
+
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+
+VirtualBox admite diferentes tipos de máquinas virtuales, incluyendo:
+
+Máquinas Virtuales de 32 bits y 64 bits: Puedes crear máquinas virtuales tanto para sistemas operativos de 32 bits como de 64 bits.
+Máquinas Virtuales para Desarrollo y Pruebas: VirtualBox es ampliamente utilizado para crear entornos de desarrollo y pruebas aislados.
+Máquinas Virtuales para Migración: Se puede usar para migrar sistemas operativos físicos a máquinas virtuales.
+Máquinas Virtuales de Servidor: VirtualBox también es utilizado en entornos de servidor para crear y gestionar máquinas virtuales que ejecutan aplicaciones y servicios.
+Máquinas Virtuales de Exploración: Puedes utilizar VirtualBox para probar nuevos sistemas operativos o configuraciones sin afectar tu sistema host.
+
+¿Qué función cumple el hypervisor en la virtualización?
+El hypervisor, también conocido como monitor de máquina virtual (VMM, por sus siglas en inglés), es una parte fundamental en la tecnología de virtualización. Su función principal es administrar y controlar múltiples máquinas virtuales en un único sistema físico. El hypervisor se sitúa entre el hardware físico de la máquina host y las máquinas virtuales que se ejecutan en ella. Su papel es esencial para lograr la virtualización eficiente y segura.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+En una configuración típica de virtualización donde se utilizan hypervisors, las máquinas virtuales están aisladas unas de otras y del sistema operativo host. Esto significa que, en teoría, si una máquina virtual se rompe o experimenta problemas, no debería afectar directamente a las demás máquinas virtuales.
+
+
